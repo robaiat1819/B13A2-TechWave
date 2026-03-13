@@ -1,0 +1,24 @@
+@media screen and (max-width: 576px) {
+  .mic-c,
+  .podcast,
+  suc {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 992px) {
+  .mic-c {
+    padding-top: 101px;
+    padding-bottom: 101px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mic-c {
+    padding-top: 105px;
+    padding-bottom: 105px;
+  }
+}
