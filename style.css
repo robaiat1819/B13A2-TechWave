@@ -7,6 +7,11 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .suc {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-bottom: 50px;
+  }
 }
 
 @media screen and (min-width: 578px) and (max-width: 992px) {
@@ -14,11 +19,28 @@
     padding-top: 101px;
     padding-bottom: 101px;
   }
+  .podcast {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .suc {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    gap: 80px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .mic-c {
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: 101px;
+    padding-bottom: 101px;
+  }
+  .podcast {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .suc {
+    padding-top: 80px;
+    padding-bottom: 100px;
   }
 }
