@@ -74,6 +74,18 @@
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+  .tw {
+    font-size: 32px;
+  }
+  .ft {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pdd {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 578px) and (max-width: 992px) {
