@@ -48,6 +48,32 @@
     grid-template-columns: 1fr !important;
     margin: auto;
   }
+  .host-s {
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .host-s img {
+    margin: auto;
+  }
+  .host-img {
+    width: 150px;
+    height: 150px;
+  }
+  .host-s p {
+    max-width: 100%;
+  }
+  .imgr {
+    justify-content: center;
+    gap: 5px;
+  }
+  .mnn {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }
 
 @media screen and (min-width: 578px) and (max-width: 992px) {
